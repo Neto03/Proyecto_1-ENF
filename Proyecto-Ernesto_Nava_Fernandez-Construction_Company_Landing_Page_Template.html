@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="hnn">
+    <header id="hnn2" class="hnn">
         <!--<img src="view1.jpg" id="ima" />-->
         <div>
             <h4>KONSTRUCT</h4>
@@ -23,19 +23,20 @@
         </div>
         <nav class="nvv" style="width: 100%">
             <ul style="width: 100%;">
-                <li><b>OUR CAPABILITIES</b></li>
-                <li><b>OUR HISTORY</b></li>
-                <li><b>HOME</b></li>
+                <li><a href="#dd222"><b>OUR CAPABILITIES</b></a></li>
+                <li><a href="#dd112"><b>OUR HISTORY</b></a></li>
+                <li><a href="#hnn2"><b>HOME</b></a></li>
             </ul>
         </nav>
     </header>
 
     <section>
-        <div class="dd11">
-            <h2 style="text-align:center;">
-                OU
-                <ins>R STO</ins>RY
+        <div class="dd11" id="dd112">
+            <h2 style="text-align:center; align-items:center;">
+                OUR STORY
+                <span></span>
             </h2>
+            
             <table>
                 <tr>
                     <th>
@@ -56,12 +57,11 @@
                 </tr>
             </table>
         </div><br><br>
-        <div class="dd22">
-            <table>
+        <div class="dd22" id="dd222">
+            <table cellspacing="50">
                 <tr>
                     <th>
-                        <h2>
-                            <ins>OUR C</ins>APABILITIES</h2>
+                        <h2>OUR CAPABILITIES<span></span></h2>
                     </th>
                     <th colspan="2">
                         <button style="float:right;"><b>ALL SERVICES</b></button>
@@ -71,25 +71,26 @@
                 </tr>
                 <tr>
                     <td>
-                        <img src="or1.jpg" width="70" height="70" />
+                        <img src="or1.jpg" width="70" height="70" /><br><br>
                         <h3><b>PROJECT AND CONSTRUCTION</b></h3>
-                        <h3><b>MANAGEMENT</b></h3>
+                        <h3><b>MANAGEMENT</b></h3><br>
                         <p>Lorem ipsum dolor sit amet,</p>
                         <p>consectetuer adipiscing elit, sed diam</p>
                         <p>quisque rutrum. Aenean imperdiet,</p>
                         <p>ultricies nisi vel augue curabitur.</p>
                     </td>
-                    <td><img src="or2.jpg" width="70" height="70" />
+                    <td><img src="or2.jpg" width="70" height="70" /><br><br>
                         <h3><b>STRUCTURE AUDIT AND</b></h3>
-                        <h3><b>MAINTENANCE</b></h3>
+                        <h3><b>MAINTENANCE</b></h3><br>
                         <p>Lorem ipsum dolor sit amet,</p>
                         <p>consectetuer adipiscing elit, sed diam</p>
                         <p>quisque rutrum. Aenean imperdiet,</p>
                         <p>ultricies nisi vel augue curabitur.</p>
                     </td>
-                    <td><img src="or3.jpg" width="70" height="70" />
+                    <td><img src="or3.jpg" width="70" height="70" /><br><br>
                         <h3><b>FACTORY CONSTRUCTION</b></h3>
                         <h3><b>AND MODELING</b></h3>
+                        <br>
                         <p>Lorem ipsum dolor sit amet,</p>
                         <p>consectetuer adipiscing elit, sed diam</p>
                         <p>quisque rutrum. Aenean imperdiet,</p>
@@ -184,6 +185,36 @@
         </div>
     </footer>
     <style>
+        footer{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        section{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .dd11 h2 span{
+            width: 30px;
+            height: 2px;
+            display: block;
+            align-self: center;
+            background-color: blue;
+        }
+        .dd22 table tr th h2 span{
+            width: 30px;
+            height: 2px;
+            display: block;
+            justify-content: center;
+            background-color: blue;
+        }
+        .dd11{
+            margin-top: 150px;
+        }
+        .dd22{
+            margin-top:150px;
+            margin-bottom:150px;
+        }
+        .dd22 table tr td{
+            border: 2px solid dimgray;
+        }
         .ti {
             text-align: center;
             padding: 100px;
@@ -219,8 +250,8 @@
             max-height: 100%;
             width: 100%;
             align-self: center;
-            padding-left: 10%;
-            padding-right: 10%;
+            padding-left: 5%;
+            padding-right: 5%;
         }
 
         .dd11 table tr th {
