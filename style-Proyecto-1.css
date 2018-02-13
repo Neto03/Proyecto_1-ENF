@@ -1,0 +1,196 @@
+footer{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        section{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .dd11 h2 span{
+            width: 30px;
+            height: 2px;
+            display: block;
+            align-self: center;
+            background-color: blue;
+        }
+        .dd22 table tr th h2 span{
+            width: 30px;
+            height: 2px;
+            display: block;
+            justify-content: center;
+            background-color: blue;
+        }
+        .dd11{
+            margin-top: 150px;
+        }
+        .dd22{
+            margin-top:150px;
+            margin-bottom:150px;
+        }
+        .dd22 table tr td{
+            border: 2px solid dimgray;
+        }
+        .ti {
+            text-align: center;
+            padding: 100px;
+        }
+
+        .ti p {
+            vertical-align: middle;
+        }
+
+        .ti h1 {
+            font-size: 50px;
+            text-transform: uppercase;
+            vertical-align: middle;
+            margin: 0;
+        }
+
+        .hnn div h4,
+        .hnn div p {
+            color: white;
+            text-transform: uppercase;
+            margin: 0;
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .dd11 table {
+            max-height: 100%;
+            width: 100%;
+        }
+
+        .dd22 table {
+            max-height: 100%;
+            width: 100%;
+            align-self: center;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .dd11 table tr th {
+            width: 50%;
+        }
+
+        .dd22 table tr td {
+            width: 33%;
+        }
+
+        .dd11 table p,
+        .dd22 table p {
+            color: dimgray;
+        }
+
+        .dd11 table tr th img {
+            align-self: left;
+        }
+
+        #emm form fieldset {
+            border-color: black;
+        }
+
+        #td11 {
+            padding-top: 0;
+            padding-bottom: 0;
+            align-self: initial;
+        }
+
+        #tdimm {
+            padding: 0px;
+        }
+
+        .ti h3,
+        .fff h2,
+        #td11 p,
+        #td22 p,
+        .imm h2,
+        .dd11 table tr th p,
+        .dd11 table tr th h3,
+        .dd22 table tr th p,
+        .dd22 table tr th h2,
+        .dd22 table tr td p,
+        .dd22 table tr td h3 {
+            margin: 0px;
+            padding-bottom: 0px;
+        }
+
+        .dd22 table tr td {
+            margin-right: 20px;
+        }
+
+        #td33 p,
+        #td34 p,
+        #td35 p {
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        .tt23 tr td {
+            padding-right: 20px;
+        }
+
+        .hnn {
+            background-image: url('view1.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+            width: 100%;
+            margin: 0 auto;
+            background-position-y: bottom;
+        }
+
+        .imm {
+            background-image: url('view2.jpeg');
+            background-size: cover;
+            overflow: hidden;
+            width: 100%;
+            height: 150px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .imm button {
+            border: none;
+            border-radius: 4px;
+            padding: 5px;
+            background-color: cornflowerblue;
+            margin: 0px;
+        }
+
+        .dd22 table tr th button {
+            border: none;
+            border-radius: 4px;
+            padding: 5px;
+            background-color: cornflowerblue;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 7px;
+        }
+
+        .imm button:hover,
+        .dd22 table tr th button:hover {
+            background-color: darkgray;
+        }
+
+        .nvv ul,
+        .nvv ul li {
+            list-style-type: none;
+            background-color: white;
+            color: dimgray;
+            margin: 0px;
+            float: right;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+        }
+
+        .nvv ul li:hover {
+            background-color: lightgray;
+            color: darkblue;
+        }
+
+        .fff table {
+            padding-left: 9%;
+            padding-right: 9%;
+        }
